@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bike Lover</title>
+    <!-- tailwine  -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <!-- popping font link  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,8 +27,47 @@
     </style>
   </head>
   <body>
-    <header>
-      <button class="btn btn-warning">hi</button>
-    </header>
+    <!-- header section  -->
+
+    <section>
+      <div class="bg-[#264653] max-w-screen-xl mx-auto p-5 text-white">
+        <div class="flex justify-end px-16 lg:px-28 text-white">
+          <div class="flex gap-10">
+            <div class="text-2xl font-bold flex items-center gap-10">
+              <p>Home</p>
+              <p>Shop</p>
+              <p>News</p>
+              <p>Contact</p>
+            </div>
+            <button
+              class="text-2xl font-bold bg-orange-600 h-12 w-28 rounded-lg items-center"
+            >
+              Login
+            </button>
+          </div>
+        </div>
+        <div class="flex justify-around p-20">
+          <!-- contain  -->
+          <div class="flex-1 items-center p-20">
+            <p>
+              Computer-controlled digital transistorized with electronic advance
+            </p>
+            <h1 class="text-3xl font-bold">Honda CBR 300R</h1>
+            <br />
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+            <br />
+            <button class="bg-orange-500 h-8 w-32 rounded-md">Purchase</button>
+          </div>
+          <!-- img  -->
+          <div class="flex-1">
+            <img src="./slider/bike3.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
